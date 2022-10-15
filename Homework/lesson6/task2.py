@@ -5,6 +5,7 @@
 # [1, 2, 3, 5, 1, 5, 3, 10] => [2, 10] и [1, 3, 5] и [1, 2, 5, 3, 10]
 
 from random import randint
+from typing import List
 
 def create_list(size, m, n):
     return [randint(m, n) for i in range(size)]
